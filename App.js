@@ -9,19 +9,19 @@ const DATA = [
     id: '1',
     title: 'Meditation',
     completed: false,
-    color: "#8fbc8f",
+    color: "#89CFF0",
   },
   {
     id: '2',
     title: 'Coding',
     completed: false,
-    color: "#8fbc8f",
+    color: "#89CFF0",
   },
   {
     id: '3',
     title: 'Journaling',
     completed: false,
-    color: "#8fbc8f",
+    color: "#89CFF0",
   },
 ]
 
@@ -37,7 +37,7 @@ export default function App() {
       id: items.length + 1,
       title: text,
       completed: false,
-      color: "#8fbc8f"
+      color: "#89CFF0"
     }
   
     setItems([...items, newTodo]);
